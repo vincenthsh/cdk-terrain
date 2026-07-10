@@ -1,5 +1,28 @@
 # Changelog
 
+## [0.24.0](https://github.com/open-constructs/cdk-terrain/compare/v0.23.4...v0.24.0) (2026-07-10)
+
+
+### ⚠ BREAKING CHANGES
+
+* **cli:** replace node-fetch with undici ([#306](https://github.com/open-constructs/cdk-terrain/issues/306))
+
+### Bug Fixes
+
+* **cli:** don't downgrade prebuilt providers on a transient registry failure ([#298](https://github.com/open-constructs/cdk-terrain/issues/298)) ([a960c5c](https://github.com/open-constructs/cdk-terrain/commit/a960c5c69e8046481460c8061448dc48567ee1ee))
+* **cli:** include dev dependencies in npm version lookup ([#280](https://github.com/open-constructs/cdk-terrain/issues/280)) ([955204a](https://github.com/open-constructs/cdk-terrain/commit/955204a9d7913aede55b86710a80624ac567ca5f))
+* **docs:** fix stale constructs pin breaking with()/IMixin docs ([#305](https://github.com/open-constructs/cdk-terrain/issues/305)) ([605cf63](https://github.com/open-constructs/cdk-terrain/commit/605cf639c4c021048ee84f8f44daf78d037f4ded))
+* **gha:** flip merged release PR label to autorelease: tagged ([#302](https://github.com/open-constructs/cdk-terrain/issues/302)) ([8d64f6c](https://github.com/open-constructs/cdk-terrain/commit/8d64f6c1194c58d5e06e3b6f69a6fe9562b4e49e))
+
+
+### Miscellaneous Chores
+
+* **cli:** replace Ink + React with smaller-tree CLI libraries ([#264](https://github.com/open-constructs/cdk-terrain/issues/264)) ([a6aff7e](https://github.com/open-constructs/cdk-terrain/commit/a6aff7e6cbb9eeca173af898ea1b48b322cc7c16))
+* **cli:** replace node-fetch with undici ([#306](https://github.com/open-constructs/cdk-terrain/issues/306)) ([1317141](https://github.com/open-constructs/cdk-terrain/commit/1317141b81c37a4c1f260050cf2bb6d4781c529a))
+* **deps:** bump glob to 13.0.6 ([#307](https://github.com/open-constructs/cdk-terrain/issues/307)) ([47ee2bb](https://github.com/open-constructs/cdk-terrain/commit/47ee2bb36112ce2c80d1d3dc87a4d14cd23de34f))
+* **deps:** bump the github-actions-backward-compatible group with 2 updates ([#295](https://github.com/open-constructs/cdk-terrain/issues/295)) ([eab2a01](https://github.com/open-constructs/cdk-terrain/commit/eab2a016d08481bec04d83e3d70c7b9dcda5d414))
+* **deps:** replace lerna with nx ([#315](https://github.com/open-constructs/cdk-terrain/issues/315)) ([94999fc](https://github.com/open-constructs/cdk-terrain/commit/94999fc2de2093bdf733adc41f2877bdb38bc126))
+
 ## [0.23.4](https://github.com/open-constructs/cdk-terrain/compare/v0.23.3...v0.23.4) (2026-07-02)
 
 
